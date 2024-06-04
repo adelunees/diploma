@@ -1,0 +1,33 @@
+.reminder-form {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.form-button {
+    padding: 10px 20px;
+    font-weight: bolder;
+    font-family: "Montserrat Light";
+    background-color: #e6dcfc;
+    color: #000;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.form-button:hover {
+    background-color: #4e8278;
+}

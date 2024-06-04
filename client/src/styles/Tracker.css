@@ -1,0 +1,53 @@
+.dashboard-container {
+    display: flex;
+    position: relative; /* Добавляем относительное позиционирование */
+    overflow: hidden; /* Чтобы скрыть части фигур, выходящих за пределы контейнера */
+}
+
+.main-content {
+    flex-grow: 1;
+    padding: 50px;
+    z-index: 1; /* Повышаем z-index, чтобы содержимое отображалось поверх фоновых фигур */
+}
+
+.habit-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list-habit {
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+.button-add-tracker {
+    font-family: "Montserrat Light";
+    font-weight: bold;
+    display: block;
+    margin: 20px 0;
+    padding: 10px 20px;
+    background-color: #cff7fc;
+    color: black;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-add-tracker:hover {
+    background-color: #b7fa78;
+}
+
+
+.dashboard-container::before {
+    width: 300px;
+    height: 300px;
+    top: -150px;
+    left: -150px;
+}
+
+.dashboard-container::after {
+    width: 400px;
+    height: 400px;
+    bottom: -200px;
+    right: -200px;
+}

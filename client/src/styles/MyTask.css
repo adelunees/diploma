@@ -1,0 +1,157 @@
+/*.dashboard-container {*/
+/*    display: flex;*/
+/*    flex-direction: row;*/
+/*}*/
+
+.main_content_myTask {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow-y: auto;
+}
+
+.button_redact_task{
+    font-family: "Montserrat Light";
+    font-weight: bold;
+    padding: 10px;
+    margin: auto;
+    border: 1px solid #4e8278;
+    background-color: #DDFFE0;
+    border-radius: 10px;
+}
+
+.button_redact_task:hover{
+    background-color: #e8c7f2;
+    border: 1px solid #BB92FF;
+    cursor: pointer;
+}
+.statuses{
+    flex: 1;
+    display: flex;
+    padding: 30px;
+    flex-direction: column;
+}
+
+.filters {
+    justify-content: space-between;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+.filters select {
+    font-family: "Montserrat Light";
+    margin-left: 10px;
+    padding: 10px 10px;
+    border-radius: 20px;
+    font-size: 16px;
+}
+
+.filters select:focus {
+    outline: none;
+    border-color: #9A5DFC;
+}
+
+.task_table {
+    background-color: #e3fcf8;
+    width: 100%;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.myTasks_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+th {
+    color: #000000;
+    background-color: #b8d9d4;
+    text-align: left;
+}
+
+.button_sort {
+    font-family: "Montserrat Light";
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #000000;
+    background-color: #fff;
+}
+
+.button_sort:hover {
+    outline: none;
+    cursor: pointer;
+    border-color: #9A5DFC;
+}
+
+.button_add_task{
+    font-family: "Montserrat Light";
+    color: #000;
+    margin-left: 50px;
+    padding: 10px 15px;
+    font-weight: bolder;
+    border-radius: 20px;
+    font-size: 16px;
+    border: 1px solid #4e8278;
+    background-color: #d0f5ee;
+}
+.button_add_task:hover {
+    outline: none;
+    cursor: pointer;
+    background-color: #e8c7f2;
+    border-color: #9A5DFC;
+}
+
+.stickers_mytasks {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    z-index: 1000;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.modal-content label {
+    margin-bottom: 10px;
+}
+
+.modal-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.modal input {
+    font-family: "Montserrat Light";
+    margin-left: 10px;
+    padding: 8px;
+}
+
+.modal select {
+    font-family: "Montserrat Light";
+    margin-left: 10px;
+    padding: 8px;
+}

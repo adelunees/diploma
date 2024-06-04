@@ -1,0 +1,86 @@
+.habit-days-list {
+    margin-top: 20px;
+    background-color: #cff7fc;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.days-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+}
+
+.day-cell {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.day-date {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.success-icon {
+    color: #b0ff8f;
+}
+
+.failure-icon {
+    color: #fc755d;
+}
+
+.options-modal {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.options-modal button {
+    margin: 0 5px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+}
+
+.options-modal button:first-child {
+    background-color: #b0ff8f;
+    color: white;
+}
+
+.options-modal button:nth-child(2) {
+    background-color: #fc755d;
+    color: white;
+}
+
+.options-modal button:last-child {
+    font-family: "Montserrat Light";
+    font-weight: bold;
+    background-color: #82edfa;
+    color: black;
+}
+
+.button-delete-tracker{
+    font-family: "Montserrat Light";
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #82edfa;
+}
+.button-delete-tracker:hover{
+    cursor: pointer;
+    background-color: #dec9ff;
+}
+
+.close{
+    font-size: 30px;
+    cursor: pointer;
+}

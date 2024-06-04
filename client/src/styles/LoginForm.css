@@ -1,0 +1,110 @@
+@font-face {
+    font-family: "Montserrat Light";
+    src: url('../fonts/Montserrat-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: "Montserrat Light";
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('../img/back3_1.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.form-container {
+    margin: 100px;
+    text-align: center;
+}
+
+.form {
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(255, 255, 255, 0.3);
+    box-shadow: 0px 0px 10px rgba(75, 34, 125, 0.3);
+    padding: 60px;
+    border-radius: 15px;
+    text-align: center;
+    justify-content: center;
+    align-items: center; /* Центрирование содержимого */
+}
+
+.input {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border: 1px solid #e8c7f2;
+    font-family: "Montserrat Light";
+    width: 90%; /* Ширина 80% для центрирования */
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.button {
+    font-family: "Montserrat Light";
+    font-size: 18px;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    width: 100%; /* Ширина 80% для центрирования */
+    border: none;
+    border-radius: 15px;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #e3f6fa;
+    color: black;
+}
+
+.sticker {
+    position: relative;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+    margin-left: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.sticker h3,
+.sticker p {
+    margin: 20px;
+}
+
+.sticker h3 {
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.sticker p {
+    color: #333;
+}
+
+.app-title {
+    font-size: 3em;
+    font-weight: bold;
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-title img {
+    width: 100px;
+    height: 100px;
+    margin-right: 10px;
+}
